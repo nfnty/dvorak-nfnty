@@ -1,12 +1,8 @@
-default
-xkb_symbols "nfnty_desk" {
-    name[Group1] = "nfnty_desk";
-
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "nfnty_advantage" {
+    name[Group1] = "nfnty_advantage";
 
     // Left hand
-
-    key <CAPS> { [ VoidSymbol ] };
-
     key <AE12> { [ ampersand, percent ] };
     key <AE01> { [ plus, 9 ] };
     key <AE02> { [ braceleft, 7 ] };
@@ -21,7 +17,6 @@ xkb_symbols "nfnty_desk" {
     key <AD04> { [ p, P ] };
     key <AD05> { [ y, Y ] };
 
-    // key <ESC>  { [ Escape ] };
     key <AC01> { [ a, A, aring, Aring ] };
     key <AC02> { [ o, O, adiaeresis, Adiaeresis ] };
     key <AC03> { [ e, E, odiaeresis, Odiaeresis ] };
@@ -36,24 +31,9 @@ xkb_symbols "nfnty_desk" {
     key <AB05> { [ x, X ] };
 
     key <TLDE> { [ dollar, dollar ] };
-    key <LSGT> { [ asciitilde, asciitilde, asciitilde, asciitilde ] };
-    // key   <UP> { [ Up ] };
-    // key <DOWN> { [ Down ] };
-
-    // key <RWIN> { [ Super_L ] };
-    // key <LALT> { [ Alt_L ] };
-    // key <LFSH> { [ Shift_L ] };
-    // key <BKSP> { [ BackSpace, BackSpace ] };
-    // key <HOME> { [ Home ] };
-    // key  <END> { [ End ] };
-
+    key <LSGT> { [ asciitilde, asciitilde ] };
 
     // Right hand
-
-    key <PRSC> { [ VoidSymbol ] };
-    key <SCLK> { [ VoidSymbol ] };
-    key <PAUS> { [ VoidSymbol ] };
-
     key <AE06> { [ asterisk, 0 ] };
     key <AE07> { [ parenright, 2 ] };
     key <AE08> { [ bracketright, 4 ] };
@@ -73,7 +53,6 @@ xkb_symbols "nfnty_desk" {
     key <AC08> { [ t, T ] };
     key <AC09> { [ n, N ] };
     key <AC10> { [ s, S ] };
-    // key  <TAB> { [ Tab, ISO_Left_Tab ] };
 
     key <AB06> { [ b, B ] };
     key <AB07> { [ m, M ] };
@@ -82,15 +61,8 @@ xkb_symbols "nfnty_desk" {
     key <AB10> { [ z, Z ] };
     key <RTSH> { [ semicolon, semicolon ] };
 
-    // key <LEFT> { [ Left ] };
-    // key <RGHT> { [ Right ] };
     key <AD11> { [ asciicircum, asciicircum ] };
     key <AD12> { [ at, at ] };
 
     include "level3(switch)"
-    // key <LCTL> { [ Control_L ] };
-    // key <PGUP> { [ Prior ] };
-    // key <PGDN> { [ Next ] };
-    // key <RTRN> { [ Return ] };
-    // key <SPCE> { [ space ] };
 };

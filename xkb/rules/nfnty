@@ -1,0 +1,14 @@
+! model = keycodes
+  *     = evdev
+
+! model = types
+  *     = complete
+
+! model = compat
+  *     = complete
+
+! model = symbols
+  *     = nfnty_base+%l
+
+! model = geometry
+  *     = pc(pc105)

@@ -1,0 +1,90 @@
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "nfnty_keyboardio" {
+    name[Group1] = "nfnty_keyboardio";
+
+    // Left hand, Normal layer
+    key <TLDE> { [ grave, grave ] };
+    key <AE09> { [ braceleft, braceleft ] };
+    key <AD11> { [ bracketleft, bracketleft ] };
+    key <I187> { [ parenleft, parenleft ] };
+    key <FK20> { [ less, less ] };
+
+    key <AC10> { [ semicolon, semicolon ] };
+    key <AC11> { [ apostrophe, apostrophe ] };
+    key <AB08> { [ comma, comma ] };
+    key <AB09> { [ period, period ] };
+    key <AD10> { [ p, P ] };
+    key <AD06> { [ y, Y ] };
+
+    key <AE11> { [ minus, minus ] };
+    key <AC01> { [ a, A, aring, Aring ] };
+    key <AD09> { [ o, O, adiaeresis, Adiaeresis ] };
+    key <AD03> { [ e, E, odiaeresis, Odiaeresis ] };
+    key <AD07> { [ u, U ] };
+    key <AD08> { [ i, I ] };
+
+    key <FK18> { [ question, question ] };
+    key <FK21> { [ quotedbl, quotedbl ] };
+    key <AD01> { [ q, Q ] };
+    key <AC07> { [ j, J ] };
+    key <AC08> { [ k, K ] };
+    key <AB02> { [ x, X ] };
+
+    // Right hand, Normal layer
+    key <FK19> { [ greater, greater ] };
+    key <I188> { [ parenright, parenright ] };
+    key <AD12> { [ bracketright, bracketright ] };
+    key <AE10> { [ braceright, braceright ] };
+    key <AE03> { [ numbersign, numbersign ] };
+
+    key <AC04> { [ f, F ] };
+    key <AC05> { [ g, G ] };
+    key <AB03> { [ c, C ] };
+    key <AD04> { [ r, R ] };
+    key <AC09> { [ l, L ] };
+    key <FK22> { [ colon, colon ] };
+
+    key <AC03> { [ d, D ] };
+    key <AC06> { [ h, H ] };
+    key <AD05> { [ t, T ] };
+    key <AB06> { [ n, N ] };
+    key <AC02> { [ s, S ] };
+    key <AE08> { [ underscore, underscore ] };
+
+    key <AB05> { [ b, B ] };
+    key <AB07> { [ m, M ] };
+    key <AD02> { [ w, W ] };
+    key <AB04> { [ v, V ] };
+    key <AB01> { [ z, Z ] };
+    key <AE01> { [ exclam, exclam ] };
+
+    // Left hand, Function layer
+    key <KPMU> { [ asterisk, asterisk ] };
+    key <AE06> { [ asciicircum, asciicircum ] };
+
+    key <KPAD> { [ plus, plus ] };
+
+    key <BKSL> { [ backslash, backslash ] };
+    key <AE12> { [ equal, equal ] };
+    key <AB10> { [ slash, slash ] };
+    key <AE05> { [ percent, percent ] };
+
+    // Right hand, Function layer
+    key <FK24> { [ asciitilde, asciitilde ] };
+    key <KP7> { [ 7, 7 ] };
+    key <KP8> { [ 8, 8 ] };
+    key <KP9> { [ 9, 9 ] };
+    key <AE07> { [ ampersand, ampersand ] };
+
+    key <AE04> { [ dollar, dollar ] };
+    key <KP4> { [ 4, 4 ] };
+    key <KP5> { [ 5, 5 ] };
+    key <KP6> { [ 6, 6 ] };
+    key <KP0> { [ 0, 0 ] };
+
+    key <AE02> { [ at, at ] };
+    key <KP1> { [ 1, 1 ] };
+    key <KP2> { [ 2, 2 ] };
+    key <KP3> { [ 3, 3 ] };
+    key <FK23> { [ bar, bar ] };
+};
