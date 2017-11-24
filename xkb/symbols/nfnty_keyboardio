@@ -87,4 +87,12 @@ xkb_symbols "nfnty_keyboardio" {
     key <AE02> { [ 2, 2 ] };
     key <AE03> { [ 3, 3 ] };
     key <LSGT> { [ bar, bar ] };
+
+    // Left hand, Extra layer
+    key <AB11> { [ aring, Aring ] };
+    key <HKTG> { [ adiaeresis, Adiaeresis ] };
+    key <AE13> { [ odiaeresis, Odiaeresis ] };
+
+    key <HENK> { [ ae, AE ] };
+    key <MUHE> { [ oslash, Ooblique ] };
 };
