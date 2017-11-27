@@ -89,6 +89,13 @@ xkb_symbols "nfnty_keyboardio" {
     key <LSGT> { [ bar, bar ] };
 
     // Left hand, Extra layer
+    key <PRSC> { [ Print ] };
+
+    // Right hand, Extra layer
+    key <MUTE> { [ XF86AudioMute ] };
+    key <VOL-> { [ XF86AudioLowerVolume ] };
+    key <VOL+> { [ XF86AudioRaiseVolume ] };
+
     key <AB11> { [ aring, Aring ] };
     key <HKTG> { [ adiaeresis, Adiaeresis ] };
     key <AE13> { [ odiaeresis, Odiaeresis ] };
