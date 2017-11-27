@@ -17,6 +17,7 @@ xkb_symbols "nfnty_base" {
     key  <END> {[End]};
     key <PGUP> {[Prior]};
     key <PGDN> {[Next]};
+    key  <INS> {[Insert]};
 
     include "srvr_ctrl(fkey2vt)"
 

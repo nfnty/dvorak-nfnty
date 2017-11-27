@@ -31,7 +31,7 @@ xkb_symbols "nfnty_keyboardio" {
     key <AB02> {[x, X]};
 
     // Right hand, Normal layer
-    key <INS>  {[greater, greater]};
+    key <HJCV> {[greater, greater]};
     key <I188> {[parenright, parenright]};
     key <AD12> {[bracketright, bracketright]};
     key <KP0>  {[braceright, braceright]};
@@ -70,13 +70,13 @@ xkb_symbols "nfnty_keyboardio" {
     key <KP5>  {[percent, percent]};
 
     // Right hand, Function layer
-    key <HELP> {[asciitilde, asciitilde]};
+    key <HNGL> {[asciitilde, asciitilde]};
     key <AE07> {[7, 7]};
     key <AE08> {[8, 8]};
     key <AE09> {[9, 9]};
     key <KP7>  {[ampersand, ampersand]};
 
-    key <KP4> {[dollar, dollar]};
+    key <KP4>  {[dollar, dollar]};
     key <AE04> {[4, 4]};
     key <AE05> {[5, 5]};
     key <AE06> {[6, 6]};
