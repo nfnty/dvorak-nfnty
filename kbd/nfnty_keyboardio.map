@@ -1,0 +1,315 @@
+keymaps 0-2,4-6,8,12
+
+
+###############
+#  LEFT HAND  #
+###############
+
+#                      Normal         Shift         AltGr         Ctrl          Shift+Ctrl    AltGr+Ctrl    Alt           Alt+Ctrl
+
+keycode    41     =    grave          grave
+keycode    73     =    braceleft      braceleft
+keycode    26     =    bracketleft    bracketleft
+keycode    179    =    parenleft      parenleft
+keycode    121    =    less           less
+
+keycode    39     =    semicolon      semicolon
+keycode    40     =    apostrophe     apostrophe
+keycode    51     =    comma          comma
+keycode    52     =    period         period
+keycode    25     =    p              P             VoidSymbol    Control_p     Control_p
+keycode    21     =    y              Y             VoidSymbol    Control_y     Control_y
+
+keycode    12     =    minus          minus
+keycode    30     =    a              A             VoidSymbol    Control_a     Control_a
+keycode    24     =    o              O             VoidSymbol    Control_o     Control_o
+keycode    18     =    e              E             VoidSymbol    Control_e     Control_e
+keycode    22     =    u              U             VoidSymbol    Control_u     Control_u
+keycode    23     =    i              I             VoidSymbol    Control_i     Control_i
+
+keycode    98     =    question       question
+keycode    74     =    quotedbl       quotedbl
+keycode    16     =    q              Q             VoidSymbol    Control_q     Control_q
+keycode    36     =    j              J             VoidSymbol    Control_j     Control_j
+keycode    37     =    k              K             VoidSymbol    Control_k     Control_k
+keycode    45     =    x              X             VoidSymbol    Control_x     Control_x
+
+keycode    1      =    Escape
+keycode    14     =    Delete         Delete
+keycode    28     =    Return         Return
+keycode    125    =    AltGr
+
+
+################
+#  RIGHT HAND  #
+################
+
+keycode    123    =    greater        greater
+keycode    180    =    parenright     parenright
+keycode    27     =    bracketright   bracketright
+keycode    82     =    braceright     braceright
+keycode    81     =    numbersign     numbersign
+
+keycode    33     =    f              F              VoidSymbol    Control_f     Control_f
+keycode    34     =    g              G              VoidSymbol    Control_g     Control_g
+keycode    46     =    c              C              VoidSymbol    Control_c     Control_c
+keycode    19     =    r              R              VoidSymbol    Control_r     Control_r
+keycode    38     =    l              L              VoidSymbol    Control_l     Control_l
+keycode    117    =    colon          colon
+
+keycode    32     =    d              D              VoidSymbol    Control_d     Control_d
+keycode    35     =    h              H              VoidSymbol    Control_h     Control_h
+keycode    20     =    t              T              VoidSymbol    Control_t     Control_t
+keycode    49     =    n              N              VoidSymbol    Control_n     Control_n
+keycode    31     =    s              S              VoidSymbol    Control_s     Control_s
+keycode    72     =    underscore     underscore
+
+keycode    48     =    b              B              VoidSymbol    Control_b     Control_b
+keycode    50     =    m              M              VoidSymbol    Control_m     Control_m
+keycode    17     =    w              W              VoidSymbol    Control_w     Control_w
+keycode    47     =    v              V              VoidSymbol    Control_v     Control_v
+keycode    44     =    z              Z              VoidSymbol    Control_z     Control_z
+keycode    79     =    exclam         exclam
+
+keycode    56     =    Alt
+keycode    29     =    Control
+keycode    57     =    space          space
+keycode    15     =    Tab            Tab
+
+keycode    42     =    Shift
+
+
+#########################
+#  FUNCTION LAYER LEFT  #
+#########################
+
+keycode    55     =    asterisk       asterisk
+keycode    77     =    asciicircum    asciicircum
+
+keycode    78     =    plus           plus
+keycode    105    =    Left           Left
+keycode    103    =    Up             Up
+keycode    106    =    Right          Right
+keycode    13     =    equal          equal
+
+keycode    43     =    backslash      backslash
+keycode    108    =    Down           Down
+keycode    53     =    slash          slash
+keycode    76     =    percent        percent
+
+##########################
+#  FUNCTION LAYER RIGHT  #
+##########################
+
+keycode    122    =    asciitilde     asciitilde
+keycode    8      =    seven          seven
+keycode    9      =    eight          eight
+keycode    10     =    nine           nine
+keycode    71     =    ampersand      ampersand
+
+keycode    75     =    dollar         dollar
+keycode    5      =    four           four
+keycode    6      =    five           five
+keycode    7      =    six            six
+keycode    11     =    zero           zero
+
+keycode    80     =    at             at
+keycode    2      =    one            one
+keycode    3      =    two            two
+keycode    4      =    three          three
+keycode    86     =    bar            bar
+
+
+######################
+#  EXTRA LAYER LEFT  #
+######################
+
+
+keycode    89     =    aring          Aring
+keycode    93     =    adiaresis      Adiaresis
+keycode    104    =    PageUp         PageUp
+keycode    124    =    odiaresis      Odiaresis
+keycode    102    =    Home           Home
+
+keycode    92     =    ae             AE
+keycode    109    =    PageDown       PageDown
+keycode    94     =    oslash         Ooblique
+keycode    107    =    End            End
+
+#######################
+#  EXTRA LAYER RIGHT  #
+#######################
+
+keycode    65     =    F7              F7             VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    Console_7
+keycode    66     =    F8              F8             VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    Console_8
+keycode    67     =    F9              F9             VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    Console_9
+keycode    88     =    F12             F12            VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    Console_12
+
+keycode    62     =    F4              F4             VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    Console_4
+keycode    63     =    F5              F5             VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    Console_5
+keycode    64     =    F6              F6             VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    Console_6
+keycode    68     =    F10             F10            VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    Console_10
+
+keycode    59     =    F1              F1             VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    Console_1
+keycode    60     =    F2              F2             VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    Console_2
+keycode    61     =    F3              F3             VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    Console_3
+keycode    87     =    F11             F11            VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol    Console_11
+
+
+############
+#  OTHERS  #
+############
+
+keycode  54 = VoidSymbol
+keycode  58 = VoidSymbol
+keycode  69 = VoidSymbol
+keycode  70 = VoidSymbol
+keycode  83 = VoidSymbol
+keycode  84 = VoidSymbol
+keycode  85 = VoidSymbol
+keycode  90 = VoidSymbol
+keycode  91 = VoidSymbol
+keycode  95 = VoidSymbol
+keycode  96 = VoidSymbol
+keycode  97 = VoidSymbol
+keycode  99 = VoidSymbol
+keycode 100 = VoidSymbol
+keycode 101 = VoidSymbol
+keycode 110 = VoidSymbol
+keycode 111 = VoidSymbol
+keycode 112 = VoidSymbol
+keycode 113 = VoidSymbol
+keycode 114 = VoidSymbol
+keycode 115 = VoidSymbol
+keycode 116 = VoidSymbol
+keycode 118 = VoidSymbol
+keycode 119 = VoidSymbol
+keycode 120 = VoidSymbol
+keycode 126 = VoidSymbol
+keycode 127 = VoidSymbol
+keycode 128 = VoidSymbol
+keycode 129 = VoidSymbol
+keycode 130 = VoidSymbol
+keycode 131 = VoidSymbol
+keycode 132 = VoidSymbol
+keycode 133 = VoidSymbol
+keycode 134 = VoidSymbol
+keycode 135 = VoidSymbol
+keycode 136 = VoidSymbol
+keycode 137 = VoidSymbol
+keycode 138 = VoidSymbol
+keycode 139 = VoidSymbol
+keycode 140 = VoidSymbol
+keycode 141 = VoidSymbol
+keycode 142 = VoidSymbol
+keycode 143 = VoidSymbol
+keycode 144 = VoidSymbol
+keycode 145 = VoidSymbol
+keycode 146 = VoidSymbol
+keycode 147 = VoidSymbol
+keycode 148 = VoidSymbol
+keycode 149 = VoidSymbol
+keycode 150 = VoidSymbol
+keycode 151 = VoidSymbol
+keycode 152 = VoidSymbol
+keycode 153 = VoidSymbol
+keycode 154 = VoidSymbol
+keycode 155 = VoidSymbol
+keycode 156 = VoidSymbol
+keycode 157 = VoidSymbol
+keycode 158 = VoidSymbol
+keycode 159 = VoidSymbol
+keycode 160 = VoidSymbol
+keycode 161 = VoidSymbol
+keycode 162 = VoidSymbol
+keycode 163 = VoidSymbol
+keycode 164 = VoidSymbol
+keycode 165 = VoidSymbol
+keycode 166 = VoidSymbol
+keycode 167 = VoidSymbol
+keycode 168 = VoidSymbol
+keycode 169 = VoidSymbol
+keycode 170 = VoidSymbol
+keycode 171 = VoidSymbol
+keycode 172 = VoidSymbol
+keycode 173 = VoidSymbol
+keycode 174 = VoidSymbol
+keycode 175 = VoidSymbol
+keycode 176 = VoidSymbol
+keycode 177 = VoidSymbol
+keycode 178 = VoidSymbol
+keycode 181 = VoidSymbol
+keycode 182 = VoidSymbol
+keycode 183 = VoidSymbol
+keycode 184 = VoidSymbol
+keycode 185 = VoidSymbol
+keycode 186 = VoidSymbol
+keycode 187 = VoidSymbol
+keycode 188 = VoidSymbol
+keycode 189 = VoidSymbol
+keycode 190 = VoidSymbol
+keycode 191 = VoidSymbol
+keycode 192 = VoidSymbol
+keycode 193 = VoidSymbol
+keycode 194 = VoidSymbol
+keycode 195 = VoidSymbol
+keycode 196 = VoidSymbol
+keycode 197 = VoidSymbol
+keycode 198 = VoidSymbol
+keycode 199 = VoidSymbol
+keycode 200 = VoidSymbol
+keycode 201 = VoidSymbol
+keycode 202 = VoidSymbol
+keycode 203 = VoidSymbol
+keycode 204 = VoidSymbol
+keycode 205 = VoidSymbol
+keycode 206 = VoidSymbol
+keycode 207 = VoidSymbol
+keycode 208 = VoidSymbol
+keycode 209 = VoidSymbol
+keycode 210 = VoidSymbol
+keycode 211 = VoidSymbol
+keycode 212 = VoidSymbol
+keycode 213 = VoidSymbol
+keycode 214 = VoidSymbol
+keycode 215 = VoidSymbol
+keycode 216 = VoidSymbol
+keycode 217 = VoidSymbol
+keycode 218 = VoidSymbol
+keycode 219 = VoidSymbol
+keycode 220 = VoidSymbol
+keycode 221 = VoidSymbol
+keycode 222 = VoidSymbol
+keycode 223 = VoidSymbol
+keycode 224 = VoidSymbol
+keycode 225 = VoidSymbol
+keycode 226 = VoidSymbol
+keycode 227 = VoidSymbol
+keycode 228 = VoidSymbol
+keycode 229 = VoidSymbol
+keycode 230 = VoidSymbol
+keycode 231 = VoidSymbol
+keycode 232 = VoidSymbol
+keycode 233 = VoidSymbol
+keycode 234 = VoidSymbol
+keycode 235 = VoidSymbol
+keycode 236 = VoidSymbol
+keycode 237 = VoidSymbol
+keycode 238 = VoidSymbol
+keycode 239 = VoidSymbol
+keycode 240 = VoidSymbol
+keycode 241 = VoidSymbol
+keycode 242 = VoidSymbol
+keycode 243 = VoidSymbol
+keycode 244 = VoidSymbol
+keycode 245 = VoidSymbol
+keycode 246 = VoidSymbol
+keycode 247 = VoidSymbol
+keycode 248 = VoidSymbol
+keycode 249 = VoidSymbol
+keycode 250 = VoidSymbol
+keycode 251 = VoidSymbol
+keycode 252 = VoidSymbol
+keycode 253 = VoidSymbol
+keycode 254 = VoidSymbol
+keycode 255 = VoidSymbol

@@ -3,60 +3,60 @@ xkb_symbols "nfnty_keyboardio" {
     name[Group1] = "nfnty_keyboardio";
 
     // Left hand, Normal layer
-    key <TLDE> {[grave, grave]};
-    key <KP9>  {[braceleft, braceleft]};
-    key <AD11> {[bracketleft, bracketleft]};
-    key <I187> {[parenleft, parenleft]};
-    key <I129> {[less, less]};
+    key <TLDE> {[plus, 9]};
+    key <KP9>  {[braceleft, 7]};
+    key <AD11> {[bracketleft, 5]};
+    key <I187> {[parenleft, 3]};
+    key <I129> {[equal, 1]};
 
-    key <AC10> {[semicolon, semicolon]};
-    key <AC11> {[apostrophe, apostrophe]};
-    key <AB08> {[comma, comma]};
-    key <AB09> {[period, period]};
+    key <AC10> {[ampersand, percent]};
+    key <AC11> {[apostrophe, quotedbl]};
+    key <AB08> {[comma, less]};
+    key <AB09> {[period, greater]};
     key <AD10> {[p, P]};
     key <AD06> {[y, Y]};
 
-    key <AE11> {[minus, minus]};
-    key <AC01> {[a, A, aring, Aring]};
-    key <AD09> {[o, O, adiaeresis, Adiaeresis]};
-    key <AD03> {[e, E, odiaeresis, Odiaeresis]};
+    key <AE11> {[minus, underscore]};
+    key <AC01> {[a, A]};
+    key <AD09> {[o, O]};
+    key <AD03> {[e, E]};
     key <AD07> {[u, U]};
     key <AD08> {[i, I]};
 
-    key <KPDV> {[question, question]};
-    key <KPSU> {[quotedbl, quotedbl]};
+    key <KPDV> {[colon, colon]};
+    key <KPSU> {[backslash, bar]};
     key <AD01> {[q, Q]};
     key <AC07> {[j, J]};
     key <AC08> {[k, K]};
     key <AB02> {[x, X]};
 
     // Right hand, Normal layer
-    key <HJCV> {[greater, greater]};
-    key <I188> {[parenright, parenright]};
-    key <AD12> {[bracketright, bracketright]};
-    key <KP0>  {[braceright, braceright]};
-    key <KP3>  {[numbersign, numbersign]};
+    key <HJCV> {[asterisk, 0]};
+    key <I188> {[parenright, 2]};
+    key <AD12> {[bracketright, 4]};
+    key <KP0>  {[braceright, 6]};
+    key <KP3>  {[exclam, 8]};
 
     key <AC04> {[f, F]};
     key <AC05> {[g, G]};
     key <AB03> {[c, C]};
     key <AD04> {[r, R]};
     key <AC09> {[l, L]};
-    key <KPEQ> {[colon, colon]};
+    key <KPEQ> {[numbersign, grave]};
 
     key <AC03> {[d, D]};
     key <AC06> {[h, H]};
     key <AD05> {[t, T]};
     key <AB06> {[n, N]};
     key <AC02> {[s, S]};
-    key <KP8>  {[underscore, underscore]};
+    key <KP8>  {[slash, question]};
 
     key <AB05> {[b, B]};
     key <AB07> {[m, M]};
     key <AD02> {[w, W]};
     key <AB04> {[v, V]};
     key <AB01> {[z, Z]};
-    key <KP1>  {[exclam, exclam]};
+    key <KP1>  {[semicolon, semicolon]};
 
     // Left hand, Function layer
     key <KPMU> {[asterisk, asterisk]};
