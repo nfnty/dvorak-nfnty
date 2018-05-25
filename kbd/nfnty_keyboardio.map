@@ -126,9 +126,9 @@ keycode    86     =    bar            bar
 
 
 keycode    89     =    aring          Aring
-keycode    93     =    adiaresis      Adiaresis
+keycode    93     =    adiaeresis     Adiaeresis
 keycode    104    =    PageUp         PageUp
-keycode    124    =    odiaresis      Odiaresis
+keycode    124    =    odiaeresis     Odiaeresis
 keycode    102    =    Home           Home
 
 keycode    92     =    ae             AE
