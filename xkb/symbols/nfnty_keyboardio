@@ -2,6 +2,9 @@ default partial alphanumeric_keys modifier_keys
 xkb_symbols "nfnty_keyboardio" {
     name[Group1] = "nfnty_keyboardio";
 
+    include "nfnty_base"
+    include "nfnty_common"
+
     // Left hand, Normal layer
     key <TLDE> {[grave, grave]};
     key <KP9>  {[braceleft, braceleft]};
@@ -17,9 +20,9 @@ xkb_symbols "nfnty_keyboardio" {
     key <AD06> {[y, Y]};
 
     key <AE11> {[minus, minus]};
-    key <AC01> {[a, A, aring, Aring]};
-    key <AD09> {[o, O, adiaeresis, Adiaeresis]};
-    key <AD03> {[e, E, odiaeresis, Odiaeresis]};
+    key <AC01> {[a, A]};
+    key <AD09> {[o, O]};
+    key <AD03> {[e, E]};
     key <AD07> {[u, U]};
     key <AD08> {[i, I]};
 

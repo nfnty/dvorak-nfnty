@@ -8,7 +8,7 @@
   *     = complete
 
 ! model = symbols
-  *     = nfnty_base+%l
+  *     = %l
 
 ! model = geometry
   *     = pc(pc105)

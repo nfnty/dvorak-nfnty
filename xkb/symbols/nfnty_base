@@ -1,45 +1,9 @@
 default partial alphanumeric_keys modifier_keys
 xkb_symbols "nfnty_base" {
-
-    key <ESC>  {[Escape]};
-    key <RTRN> {[Return]};
-    key <SPCE> {[space]};
-    key  <TAB> {[Tab, ISO_Left_Tab]};
-    key <BKSP> {[BackSpace, BackSpace]};
-    key <DELE> {[Delete]};
-
-    key   <UP> {[Up]};
-    key <LEFT> {[Left]};
-    key <DOWN> {[Down]};
-    key <RGHT> {[Right]};
-
-    key <HOME> {[Home]};
-    key  <END> {[End]};
-    key <PGUP> {[Prior]};
-    key <PGDN> {[Next]};
-    key  <INS> {[Insert]};
-
-    include "srvr_ctrl(fkey2vt)"
-
-    key <LFSH> {[Shift_L]};
-    key <RTSH> {[Shift_R]};
-    key <LCTL> {[Control_L]};
-    key <RCTL> {[Control_R]};
-    key <LWIN> {[Super_L]};
-    key <RWIN> {[Super_R]};
-
-    // Modifier mappings
-    modifier_map Shift  {Shift_L, Shift_R};
+    // Modifiers: Do not reorder!
+    modifier_map Mod1 {Alt_L, Alt_R};
+    modifier_map Shift {Shift_L, Shift_R};
     modifier_map Control{Control_L, Control_R};
-    modifier_map Mod4   {Super_L, Super_R};
-
-    // Fake keys for virtual<->real modifiers mapping:
-    key <LVL3> {[ISO_Level3_Shift]};
-    modifier_map Mod5 {<LVL3>};
-
-    key <ALT> {[NoSymbol, Alt_L]};
-    include "altwin(meta_alt)"
-
-    key <SUPR> {[NoSymbol, Super_L]};
-    modifier_map Mod4 {<SUPR>};
+    modifier_map Mod4 {Super_L, Super_R};
+    modifier_map Mod5 {ISO_Level3_Shift};
 };

@@ -1,6 +1,9 @@
 default partial alphanumeric_keys modifier_keys
-xkb_symbols "nfnty_keyboardio" {
-    name[Group1] = "nfnty_keyboardio";
+xkb_symbols "nfnty_keyboardio_advantage" {
+    name[Group1] = "nfnty_keyboardio_advantage";
+
+    include "nfnty_base"
+    include "nfnty_common"
 
     // Left hand, Normal layer
     key <TLDE> {[plus, 9]};

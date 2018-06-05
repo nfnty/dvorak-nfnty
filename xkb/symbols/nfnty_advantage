@@ -2,6 +2,9 @@ default partial alphanumeric_keys modifier_keys
 xkb_symbols "nfnty_advantage" {
     name[Group1] = "nfnty_advantage";
 
+    include "nfnty_base"
+    include "nfnty_common"
+
     // Left hand
     key <AE12> {[ampersand, percent]};
     key <AE01> {[plus, 9]};
