@@ -3,7 +3,6 @@ xkb_symbols "nfnty_keyboardio" {
     name[Group1] = "nfnty_keyboardio";
 
     include "nfnty_base"
-    include "nfnty_common"
 
     // Left hand, Normal layer
     key <TLDE> {[grave, grave]};
@@ -33,6 +32,11 @@ xkb_symbols "nfnty_keyboardio" {
     key <AC08> {[k, K]};
     key <AB02> {[x, X]};
 
+    key <ESC>  {[Escape]};
+    key <BKSP> {[BackSpace, BackSpace]};
+    key <RTRN> {[Return]};
+    key <LWIN> {[Super_L]};
+
     // Right hand, Normal layer
     key <HJCV> {[greater, greater]};
     key <I188> {[parenright, parenright]};
@@ -61,14 +65,25 @@ xkb_symbols "nfnty_keyboardio" {
     key <AB01> {[z, Z]};
     key <KP1>  {[exclam, exclam]};
 
+    key <LALT> {[Alt_L]};
+    key <LCTL> {[Control_L]};
+    key <SPCE> {[space]};
+    key  <TAB> {[Tab, ISO_Left_Tab]};
+
+    key <LFSH> {[Shift_L]};
+
     // Left hand, Function layer
     key <KPMU> {[asterisk, asterisk]};
     key <KP6>  {[asciicircum, asciicircum]};
 
     key <KPAD> {[plus, plus]};
+    key <LEFT> {[Left]};
+    key   <UP> {[Up]};
+    key <RGHT> {[Right]};
     key <AE12> {[equal, equal]};
 
     key <BKSL> {[backslash, backslash]};
+    key <DOWN> {[Down]};
     key <AB10> {[slash, slash]};
     key <KP5>  {[percent, percent]};
 
@@ -94,15 +109,23 @@ xkb_symbols "nfnty_keyboardio" {
     // Left hand, Extra layer
     key <PRSC> {[Print]};
 
+    key <DELE> {[Delete]};
+
     key <AB11> {[aring, Aring]};
     key <HKTG> {[adiaeresis, Adiaeresis]};
+    key <PGUP> {[Prior]};
     key <AE13> {[odiaeresis, Odiaeresis]};
+    key <HOME> {[Home]};
 
     key <HENK> {[ae, AE]};
+    key <PGDN> {[Next]};
     key <MUHE> {[oslash, Ooblique]};
+    key  <END> {[End]};
 
     // Right hand, Extra layer
     key <MUTE> {[XF86AudioMute]};
     key <VOL-> {[XF86AudioLowerVolume]};
     key <VOL+> {[XF86AudioRaiseVolume]};
+
+    include "srvr_ctrl(fkey2vt)"
 };
