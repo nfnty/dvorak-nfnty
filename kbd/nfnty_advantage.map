@@ -143,7 +143,7 @@ control shift keycode 38 = Control_n
 keycode    39     =    s               S
 control keycode 39 = Control_s
 control shift keycode 39 = Control_s
-keycode    15     =    Tab             Tab
+keycode    15     =    Tab             Meta_Tab
 
 keycode    49     =    b               B
 control keycode 49 = Control_b

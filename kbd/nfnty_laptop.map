@@ -145,7 +145,7 @@ control shift keycode 38 = Control_n
 keycode    39     =    s              S             zero          zero          F10           F10
 control keycode 39 = Control_s
 control shift keycode 39 = Control_s
-keycode    40     =    Tab            Tab           Tab           Tab           Tab           Tab
+keycode    40     =    Tab            Meta_Tab      Tab           Meta_Tab      Tab           Meta_Tab
 keycode    43     =    exclam         exclam        exclam        exclam
 
 keycode    49     =    b              B             at            at

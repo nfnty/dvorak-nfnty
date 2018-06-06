@@ -126,7 +126,7 @@ keycode    79     =    exclam         exclam
 keycode    56     =    Alt
 keycode    29     =    Control
 keycode    57     =    space          space
-keycode    15     =    Tab            Tab
+keycode    15     =    Tab            Meta_Tab
 
 keycode    42     =    Shift
 
