@@ -1,25 +1,37 @@
-keymaps 0,1,2,3,128,129,64,65,72
+keymaps 0,1,2,3,128,129
 
 
 ###############
 #  LEFT HAND  #
 ###############
 
-#                      Normal         Shift         AltGr         AltGr+Shift   CtrlR         CtrlR+Shift    CtrlL         CtrlL+Shift    CtrlL+Alt
+#                      Normal         Shift         AltGr         AltGr+Shift   CtrlR         CtrlR+Shift
 
 keycode    1      =    VoidSymbol
-keycode    59     =    F1              F1           VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol     VoidSymbol    VoidSymbol     Console_1
-keycode    60     =    F2              F2           VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol     VoidSymbol    VoidSymbol     Console_2
-keycode    61     =    F3              F3           VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol     VoidSymbol    VoidSymbol     Console_3
-keycode    62     =    F4              F4           VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol     VoidSymbol    VoidSymbol     Console_4
-keycode    63     =    F5              F5           VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol     VoidSymbol    VoidSymbol     Console_5
-keycode    64     =    F6              F6           VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol     VoidSymbol    VoidSymbol     Console_6
-keycode    65     =    F7              F7           VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol     VoidSymbol    VoidSymbol     Console_7
-keycode    66     =    F8              F8           VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol     VoidSymbol    VoidSymbol     Console_8
-keycode    67     =    F9              F9           VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol     VoidSymbol    VoidSymbol     Console_9
-keycode    68     =    F10             F10          VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol     VoidSymbol    VoidSymbol     Console_10
-keycode    87     =    F11             F11          VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol     VoidSymbol    VoidSymbol     Console_11
-keycode    88     =    F12             F12          VoidSymbol    VoidSymbol    VoidSymbol    VoidSymbol     VoidSymbol    VoidSymbol     Console_12
+keycode    59     =    F1             F1
+control alt keycode  59 = Console_1
+keycode    60     =    F2             F2
+control alt keycode  60 = Console_2
+keycode    61     =    F3             F3
+control alt keycode  61 = Console_3
+keycode    62     =    F4             F4
+control alt keycode  62 = Console_4
+keycode    63     =    F5             F5
+control alt keycode  63 = Console_5
+keycode    64     =    F6             F6
+control alt keycode  64 = Console_6
+keycode    65     =    F7             F7
+control alt keycode  65 = Console_7
+keycode    66     =    F8             F8
+control alt keycode  66 = Console_8
+keycode    67     =    F9             F9
+control alt keycode  67 = Console_9
+keycode    68     =    F10            F10
+control alt keycode  68 = Console_10
+keycode    87     =    F11            F11
+control alt keycode  87 = Console_11
+keycode    88     =    F12            F12
+control alt keycode  88 = Console_12
 keycode    99     =    VoidSymbol
 keycode    110    =    VoidSymbol
 keycode    111    =    VoidSymbol
@@ -35,68 +47,120 @@ keycode    15     =    minus          minus         minus         minus
 keycode    16     =    apostrophe     apostrophe    apostrophe    apostrophe    Remove        Remove
 keycode    17     =    comma          comma         comma         comma
 keycode    18     =    period         period        period        period
-keycode    19     =    p              P             asterisk      asterisk      VoidSymbol    VoidSymbol     Control_p     Control_p
-keycode    20     =    y              Y             asciicircum   asciicircum   VoidSymbol    VoidSymbol     Control_y     Control_y
+keycode    19     =    p              P             asterisk      asterisk
+control keycode 19 = Control_p
+control shift keycode 19 = Control_p
+keycode    20     =    y              Y             asciicircum   asciicircum
+control keycode 20 = Control_y
+control shift keycode 20 = Control_y
 
 keycode    58     =    Escape         Escape        Escape        Escape        Escape        Escape
-keycode    30     =    a              A             plus          plus          aring         Aring          Control_a     Control_a
-keycode    31     =    o              O             Left          Left          adiaeresis    Adiaeresis     Control_o     Control_o
-keycode    32     =    e              E             Up            Up            PageUp        PageUp         Control_e     Control_e
-keycode    33     =    u              U             Right         Right         odiaeresis    Odiaeresis     Control_u     Control_u
-keycode    34     =    i              I             equal         equal         Home          Home           Control_i     Control_i
+keycode    30     =    a              A             plus          plus          aring         Aring
+control keycode 30 = Control_a
+control shift keycode 30 = Control_a
+keycode    31     =    o              O             Left          Left          adiaeresis    Adiaeresis
+control keycode 31 = Control_o
+control shift keycode 31 = Control_o
+keycode    32     =    e              E             Up            Up            PageUp        PageUp
+control keycode 32 = Control_e
+control shift keycode 32 = Control_e
+keycode    33     =    u              U             Right         Right         odiaeresis    Odiaeresis
+control keycode 33 = Control_u
+control shift keycode 33 = Control_u
+keycode    34     =    i              I             equal         equal         Home          Home
+control keycode 34 = Control_i
+control shift keycode 34 = Control_i
 
-keycode    42     =    BackSpace      BackSpace     BackSpace    BackSpace      BackSpace     BackSpace
-keycode    86     =    quotedbl       quotedbl      quotedbl     quotedbl
-keycode    44     =    q              Q             backslash    backslash      ae            AE             Control_q     Control_q
-keycode    45     =    j              J             Down         Down           PageDown      PageDown       Control_j     Control_j
-keycode    46     =    k              K             slash        slash          oslash        Ooblique       Control_k     Control_k
-keycode    47     =    x              X             percent      percent        End           End            Control_x     Control_x
+keycode    42     =    BackSpace      BackSpace     BackSpace     BackSpace      BackSpace     BackSpace
+keycode    86     =    quotedbl       quotedbl      quotedbl      quotedbl
+keycode    44     =    q              Q             backslash     backslash      ae            AE
+control keycode 44 = Control_q
+control shift keycode 44 = Control_q
+keycode    45     =    j              J             Down          Down           PageDown      PageDown
+control keycode 45 = Control_j
+control shift keycode 45 = Control_j
+keycode    46     =    k              K             slash         slash          oslash        Ooblique
+control keycode 46 = Control_k
+control shift keycode 46 = Control_k
+keycode    47     =    x              X             percent       percent        End           End
+control keycode 47 = Control_x
+control shift keycode 47 = Control_x
 keycode    48     =    CtrlR
 
 keycode    29     =    VoidSymbol
 keycode    125    =    VoidSymbol
 keycode    56     =    AltGr
-keycode    57     =    space          space         space        space          space         space
+keycode    57     =    space          space         space         space          space         space
 
 ################
 #  RIGHT HAND  #
 ################
 
 keycode    7      =    VoidSymbol
-keycode    8      =    greater       greater         greater       greater
-keycode    9      =    parenright    parenright      parenright    parenright
-keycode    10     =    bracketright  bracketright    bracketright  bracketright
-keycode    11     =    braceright    braceright      braceright    braceright
-keycode    12     =    numbersign    numbersign      numbersign    numbersign
-keycode    13     =    colon         colon           colon         colon
+keycode    8      =    greater        greater       greater       greater
+keycode    9      =    parenright     parenright    parenright    parenright
+keycode    10     =    bracketright   bracketright  bracketright  bracketright
+keycode    11     =    braceright     braceright    braceright    braceright
+keycode    12     =    numbersign     numbersign    numbersign    numbersign
+keycode    13     =    colon          colon         colon         colon
 keycode    14     =    VoidSymbol
 
-keycode    21     =    f              F              asciitilde    asciitilde    VoidSymbol    VoidSymbol     Control_f     Control_f
-keycode    22     =    g              G              7             7             F7            F7             Control_g     Control_g
-keycode    23     =    c              C              8             8             F8            F8             Control_c     Control_c
-keycode    24     =    r              R              9             9             F9            F9             Control_r     Control_r
-keycode    25     =    l              L              ampersand     ampersand     F12           F12            Control_l     Control_l
-keycode    26     =    underscore     underscore     underscore    underscore
-keycode    27     =    question       question       question      question
+keycode    21     =    f              F             asciitilde    asciitilde
+control keycode 21 = Control_f
+control shift keycode 21 = Control_f
+keycode    22     =    g              G             7             7             F7            F7
+control keycode 22 = Control_g
+control shift keycode 22 = Control_g
+keycode    23     =    c              C             8             8             F8            F8
+control keycode 23 = Control_c
+control shift keycode 23 = Control_c
+keycode    24     =    r              R             9             9             F9            F9
+control keycode 24 = Control_r
+control shift keycode 24 = Control_r
+keycode    25     =    l              L             ampersand     ampersand     F12           F12
+control keycode 25 = Control_l
+control shift keycode 25 = Control_l
+keycode    26     =    underscore     underscore    underscore    underscore
+keycode    27     =    question       question      question      question
 keycode    28     =    VoidSymbol
 
-keycode    35     =    d              D              dollar        dollar        VoidSymbol    VoidSymbol     Control_d     Control_d
-keycode    36     =    h              H              4             4             F4            F4             Control_h     Control_h
-keycode    37     =    t              T              5             5             F5            F5             Control_t     Control_t
-keycode    38     =    n              N              6             6             F6            F6             Control_n     Control_n
-keycode    39     =    s              S              0             0             F10           F10            Control_s     Control_s
-keycode    40     =    Tab            Tab            Tab           Tab           Tab           Tab
-keycode    43     =    exclam         exclam         exclam        exclam
+keycode    35     =    d              D             dollar        dollar
+control keycode 35 = Control_d
+control shift keycode 35 = Control_d
+keycode    36     =    h              H             4             4             F4            F4
+control keycode 36 = Control_h
+control shift keycode 36 = Control_h
+keycode    37     =    t              T             5             5             F5            F5
+control keycode 37 = Control_t
+control shift keycode 37 = Control_t
+keycode    38     =    n              N             6             6             F6            F6
+control keycode 38 = Control_n
+control shift keycode 38 = Control_n
+keycode    39     =    s              S             0             0             F10           F10
+control keycode 39 = Control_s
+control shift keycode 39 = Control_s
+keycode    40     =    Tab            Tab           Tab           Tab           Tab           Tab
+keycode    43     =    exclam         exclam        exclam        exclam
 
-keycode    49     =    b              B              at            at            VoidSymbol    VoidSymbol     Control_b     Control_b
-keycode    50     =    m              M              1             1             F1            F1             Control_m     Control_m
-keycode    51     =    w              W              2             2             F2            F2             Control_w     Control_w
-keycode    52     =    v              V              3             3             F3            F3             Control_v     Control_v
-keycode    53     =    z              Z              bar           bar           F11           F11            Control_z     Control_z
-keycode    54     =    Return         Return         Return        Return        Return        Return
+keycode    49     =    b              B             at            at
+control keycode 49 = Control_b
+control shift keycode 49 = Control_b
+keycode    50     =    m              M             1             1             F1            F1
+control keycode 50 = Control_m
+control shift keycode 50 = Control_m
+keycode    51     =    w              W             2             2             F2            F2
+control keycode 51 = Control_w
+control shift keycode 51 = Control_w
+keycode    52     =    v              V             3             3             F3            F3
+control keycode 52 = Control_v
+control shift keycode 52 = Control_v
+keycode    53     =    z              Z             bar           bar           F11           F11
+control keycode 53 = Control_z
+control shift keycode 53 = Control_z
+keycode    54     =    Return         Return        Return        Return        Return        Return
 
-keycode    100    =    ShiftL
-keycode    97     =    CtrlL
+keycode    100    =    Shift
+keycode    97     =    Control
 keycode    104    =    Alt
 keycode    103    =    VoidSymbol
 keycode    109    =    VoidSymbol
