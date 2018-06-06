@@ -45,9 +45,9 @@ xkb_symbols "nfnty_advantage" {
     key <DOWN> {[Down, Down, Down, Down]};
     key   <UP> {[Up, Up, Up, Up]};
 
-    key <LWIN> {[Super_L]};
-    key <LALT> {[Alt_L]};
-    key <LFSH> {[Shift_L]};
+    key <LWIN> {[Super_L, Super_L, Super_L, Super_L]};
+    key <LALT> {[Alt_L, Alt_L, Alt_L, Alt_L]};
+    key <LFSH> {[Shift_L, Shift_L, Shift_L, Shift_L]};
     key <BKSP> {[BackSpace, BackSpace, BackSpace, BackSpace]};
     key <HOME> {[Home, Home, Home, Home]};
     key  <END> {[End, End, End, End]};
@@ -86,8 +86,8 @@ xkb_symbols "nfnty_advantage" {
     key <AD11> {[asciicircum, asciicircum]};
     key <AD12> {[at, at]};
 
-    key <RCTL> {[ISO_Level3_Shift]};
-    key <LCTL> {[Control_L]};
+    key <RCTL> {[ISO_Level3_Shift, ISO_Level3_Shift, ISO_Level3_Shift, ISO_Level3_Shift]};
+    key <LCTL> {[Control_L, Control_L, Control_L, Control_L]};
     key <PGUP> {[Prior, Prior, Prior, Prior]};
     key <PGDN> {[Next, Next, Next, Next]};
     key <RTRN> {[Return, Return, Return, Return]};

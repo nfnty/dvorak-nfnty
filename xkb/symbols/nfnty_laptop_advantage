@@ -40,11 +40,11 @@ xkb_symbols "nfnty_laptop_advantage" {
     key <AB02> {[j, J, Down, Down, Next, Next]};
     key <AB03> {[k, K, slash, slash, oslash, Ooblique]};
     key <AB04> {[x, X, percent, percent, End, End]};
-    key <AB05> {[ISO_Level5_Shift]};
+    key <AB05> {[ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift]};
 
     // key <LCTL> {[]};
-    key <LWIN> {[Super_L]};
-    key <LALT> {[ISO_Level3_Shift]};
+    key <LWIN> {[Super_L, Super_L, Super_L, Super_L, Super_L, Super_L]};
+    key <LALT> {[ISO_Level3_Shift, ISO_Level3_Shift, ISO_Level3_Shift, ISO_Level3_Shift, ISO_Level3_Shift, ISO_Level3_Shift]};
     key <SPCE> {[space, space, space, space, space, space]};
 
     // Right hand
@@ -81,13 +81,13 @@ xkb_symbols "nfnty_laptop_advantage" {
     key <AB10> {[z, Z, bar, bar, F11, F11]};
     key <RTSH> {[Return, Return, Return, Return, Return, Return]};
 
-    key <RALT> {[Shift_L]};
-    key <RCTL> {[Control_L]};
-    key <PGUP> {[Alt_L]};
+    key <RALT> {[Shift_L, Shift_L, Shift_L, Shift_L, Shift_L, Shift_L]};
+    key <RCTL> {[Control_L, Control_L, Control_L, Control_L, Control_L, Control_L]};
+    key <PGUP> {[Alt_L, Alt_L, Alt_L, Alt_L, Alt_L, Alt_L]};
     // key <UP> {[]};
     // key <PGDN> {[]};
 
-    key <LEFT> {[Alt_L]};
+    key <LEFT> {[Alt_L, Alt_L, Alt_L, Alt_L, Alt_L, Alt_L]};
     // key <DOWN> {[]};
     // key <RGHT> {[]};
 };

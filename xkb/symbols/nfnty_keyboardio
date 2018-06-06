@@ -35,7 +35,7 @@ xkb_symbols "nfnty_keyboardio" {
     key <ESC>  {[Escape, Escape]};
     key <BKSP> {[BackSpace, BackSpace]};
     key <RTRN> {[Return, Return]};
-    key <LWIN> {[Super_L]};
+    key <LWIN> {[Super_L, Super_L]};
 
     // Right hand, Normal layer
     key <HJCV> {[greater, greater]};
@@ -65,12 +65,12 @@ xkb_symbols "nfnty_keyboardio" {
     key <AB01> {[z, Z]};
     key <KP1>  {[exclam, exclam]};
 
-    key <LALT> {[Alt_L]};
-    key <LCTL> {[Control_L]};
+    key <LALT> {[Alt_L, Alt_L]};
+    key <LCTL> {[Control_L, Control_L]};
     key <SPCE> {[space, space]};
     key  <TAB> {[Tab, ISO_Left_Tab]};
 
-    key <LFSH> {[Shift_L]};
+    key <LFSH> {[Shift_L, Shift_L]};
 
     // Left hand, Function layer
     key <KPMU> {[asterisk, asterisk]};
