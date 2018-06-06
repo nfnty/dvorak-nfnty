@@ -111,44 +111,38 @@ keycode    57     =    space           space
 #  OTHERS  #
 ############
 
-keycode  55 = VoidSymbol
-
-keycode  58 = VoidSymbol
-
-keycode  69 = VoidSymbol
-keycode  70 = VoidSymbol
-keycode  71 = VoidSymbol
-keycode  72 = VoidSymbol
-keycode  73 = VoidSymbol
-keycode  74 = VoidSymbol
-keycode  75 = VoidSymbol
-keycode  76 = VoidSymbol
-keycode  77 = VoidSymbol
-keycode  78 = VoidSymbol
-keycode  79 = VoidSymbol
-keycode  80 = VoidSymbol
-keycode  81 = VoidSymbol
-keycode  82 = VoidSymbol
-keycode  83 = VoidSymbol
-keycode  84 = VoidSymbol
-keycode  85 = VoidSymbol
-
-keycode  89 = VoidSymbol
-keycode  90 = VoidSymbol
-keycode  91 = VoidSymbol
-keycode  92 = VoidSymbol
-keycode  93 = VoidSymbol
-keycode  94 = VoidSymbol
-keycode  95 = VoidSymbol
-keycode  96 = VoidSymbol
-
-keycode  98 = VoidSymbol
-keycode  99 = VoidSymbol
+keycode 55 = VoidSymbol
+keycode 58 = VoidSymbol
+keycode 69 = VoidSymbol
+keycode 70 = VoidSymbol
+keycode 71 = VoidSymbol
+keycode 72 = VoidSymbol
+keycode 73 = VoidSymbol
+keycode 74 = VoidSymbol
+keycode 75 = VoidSymbol
+keycode 76 = VoidSymbol
+keycode 77 = VoidSymbol
+keycode 78 = VoidSymbol
+keycode 79 = VoidSymbol
+keycode 80 = VoidSymbol
+keycode 81 = VoidSymbol
+keycode 82 = VoidSymbol
+keycode 83 = VoidSymbol
+keycode 84 = VoidSymbol
+keycode 85 = VoidSymbol
+keycode 89 = VoidSymbol
+keycode 90 = VoidSymbol
+keycode 91 = VoidSymbol
+keycode 92 = VoidSymbol
+keycode 93 = VoidSymbol
+keycode 94 = VoidSymbol
+keycode 95 = VoidSymbol
+keycode 96 = VoidSymbol
+keycode 98 = VoidSymbol
+keycode 99 = VoidSymbol
 keycode 100 = VoidSymbol
 keycode 101 = VoidSymbol
-
 keycode 110 = VoidSymbol
-
 keycode 112 = VoidSymbol
 keycode 113 = VoidSymbol
 keycode 114 = VoidSymbol
@@ -163,7 +157,6 @@ keycode 122 = VoidSymbol
 keycode 123 = VoidSymbol
 keycode 124 = VoidSymbol
 keycode 125 = VoidSymbol
-
 keycode 127 = VoidSymbol
 keycode 128 = VoidSymbol
 keycode 129 = VoidSymbol
