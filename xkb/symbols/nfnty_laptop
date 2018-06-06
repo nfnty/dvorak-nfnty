@@ -12,17 +12,17 @@ xkb_symbols "nfnty_laptop" {
     // key <DEL> {[]};
 
     // Left hand
-    key <TLDE> {[semicolon, semicolon]};
-    key <AE01> {[grave, grave]};
-    key <AE02> {[braceleft, braceleft]};
-    key <AE03> {[bracketleft, bracketleft]};
-    key <AE04> {[parenleft, parenleft]};
-    key <AE05> {[less, less]};
+    key <TLDE> {[semicolon]};
+    key <AE01> {[grave]};
+    key <AE02> {[braceleft]};
+    key <AE03> {[bracketleft]};
+    key <AE04> {[parenleft]};
+    key <AE05> {[less]};
 
-    key <TAB> {[minus, minus]};
-    key <AD01> {[apostrophe, apostrophe]};
-    key <AD02> {[comma, comma]};
-    key <AD03> {[period, period]};
+    key <TAB> {[minus]};
+    key <AD01> {[apostrophe]};
+    key <AD02> {[comma]};
+    key <AD03> {[period]};
     key <AD04> {[p, P, asterisk, asterisk]};
     key <AD05> {[y, Y, asciicircum, asciicircum]};
 
@@ -33,27 +33,27 @@ xkb_symbols "nfnty_laptop" {
     key <AC04> {[u, U, Right, Right]};
     key <AC05> {[i, I, equal, equal]};
 
-    key <LFSH> {[BackSpace, BackSpace]};
-    key <LSGT> {[quotedbl, quotedbl]};
+    key <LFSH> {[BackSpace]};
+    key <LSGT> {[quotedbl]};
     key <AB01> {[q, Q, backslash, backslash]};
     key <AB02> {[j, J, Down, Down]};
     key <AB03> {[k, K, slash, slash]};
     key <AB04> {[x, X, percent, percent]};
-    // key <AB05> {[]};
+    key <AB05> {[Alt_L]};
 
-    key <LCTL> {[Control_L]};
+    // key <LCTL> {[]};
     key <LWIN> {[Super_L]};
     key <LALT> {[ISO_Level3_Shift]};
     key <SPCE> {[space]};
 
     // Right hand
     // key <AE06> {[]};
-    key <AE07> {[greater, greater]};
-    key <AE08> {[parenright, parenright]};
-    key <AE09> {[bracketright, bracketright]};
-    key <AE10> {[braceright, braceright]};
-    key <AE11> {[numbersign, numbersign]};
-    key <AE12> {[colon, colon]};
+    key <AE07> {[greater]};
+    key <AE08> {[parenright]};
+    key <AE09> {[bracketright]};
+    key <AE10> {[braceright]};
+    key <AE11> {[numbersign]};
+    key <AE12> {[colon]};
     // key <BKSP> {[]};
 
     key <AD06> {[f, F, asciitilde, asciitilde]};
@@ -61,8 +61,8 @@ xkb_symbols "nfnty_laptop" {
     key <AD08> {[c, C, 8, 8]};
     key <AD09> {[r, R, 9, 9]};
     key <AD10> {[l, L, ampersand, ampersand]};
-    key <AD11> {[underscore, underscore]};
-    key <AD12> {[question, question]};
+    key <AD11> {[underscore]};
+    key <AD12> {[question]};
     // key <RTRN> {[]};
 
     key <AC06> {[d, D, dollar, dollar]};
@@ -70,8 +70,8 @@ xkb_symbols "nfnty_laptop" {
     key <AC08> {[t, T, 5, 5]};
     key <AC09> {[n, N, 6, 6]};
     key <AC10> {[s, S, 0, 0]};
-    key <AC11> {[Tab, ISO_Left_Tab]};
-    key <BKSL> {[exclam, exclam]};
+    key <AC11> {[Tab, ISO_Left_Tab, Tab, ISO_Left_Tab]};
+    key <BKSL> {[exclam]};
 
     key <AB06> {[b, B, at, at]};
     key <AB07> {[m, M, 1, 1]};
@@ -81,7 +81,7 @@ xkb_symbols "nfnty_laptop" {
     key <RTSH> {[Return]};
 
     key <RALT> {[Shift_L]};
-    key <RCTL> {[Alt_L]};
+    key <RCTL> {[Control_L]};
     // key <PGUP> {[]};
     // key <UP> {[]};
     // key <PGDN> {[]};

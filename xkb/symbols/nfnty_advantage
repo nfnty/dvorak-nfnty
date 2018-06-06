@@ -5,7 +5,11 @@ xkb_symbols "nfnty_advantage" {
     include "nfnty_base"
 
     // Top row
+    // key <ESC> {[]};
     include "srvr_ctrl(fkey2vt)"
+    // key <PRSC> {[]};
+    // key <SCLK> {[]};
+    // key <PAUS> {[]};
 
     // Left hand
     key <AE12> {[ampersand, percent]};
@@ -29,22 +33,22 @@ xkb_symbols "nfnty_advantage" {
     key <AC04> {[u, U]};
     key <AC05> {[i, I]};
 
-    key <DELE> {[colon, colon]};
+    key <DELE> {[colon]};
     key <AB01> {[backslash, bar]};
     key <AB02> {[q, Q]};
     key <AB03> {[j, J]};
     key <AB04> {[k, K]};
     key <AB05> {[x, X]};
 
-    key <TLDE> {[dollar, dollar]};
-    key <LSGT> {[asciitilde, asciitilde]};
+    key <TLDE> {[dollar]};
+    key <LSGT> {[asciitilde]};
     key <DOWN> {[Down]};
     key   <UP> {[Up]};
 
     key <LWIN> {[Super_L]};
     key <LALT> {[Alt_L]};
     key <LFSH> {[Shift_L]};
-    key <BKSP> {[BackSpace, BackSpace]};
+    key <BKSP> {[BackSpace]};
     key <HOME> {[Home]};
     key  <END> {[End]};
 
@@ -75,12 +79,12 @@ xkb_symbols "nfnty_advantage" {
     key <AB08> {[w, W]};
     key <AB09> {[v, V]};
     key <AB10> {[z, Z]};
-    key <RTSH> {[semicolon, semicolon]};
+    key <RTSH> {[semicolon]};
 
     key <LEFT> {[Left]};
     key <RGHT> {[Right]};
-    key <AD11> {[asciicircum, asciicircum]};
-    key <AD12> {[at, at]};
+    key <AD11> {[asciicircum]};
+    key <AD12> {[at]};
 
     key <RCTL> {[ISO_Level3_Shift]};
     key <LCTL> {[Control_L]};
