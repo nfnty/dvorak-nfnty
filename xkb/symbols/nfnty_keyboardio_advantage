@@ -25,16 +25,16 @@ xkb_symbols "nfnty_keyboardio_advantage" {
     key <AD07> {[u, U]};
     key <AD08> {[i, I]};
 
-    key <KPDV> {[colon]};
+    key <KPDV> {[colon, colon]};
     key <KPSU> {[backslash, bar]};
     key <AD01> {[q, Q]};
     key <AC07> {[j, J]};
     key <AC08> {[k, K]};
     key <AB02> {[x, X]};
 
-    key <ESC>  {[Escape]};
-    key <BKSP> {[BackSpace]};
-    key <RTRN> {[Return]};
+    key <ESC>  {[Escape, Escape]};
+    key <BKSP> {[BackSpace, BackSpace]};
+    key <RTRN> {[Return, Return]};
     key <LWIN> {[Super_L]};
 
     // Right hand, Normal layer
@@ -63,70 +63,70 @@ xkb_symbols "nfnty_keyboardio_advantage" {
     key <AD02> {[w, W]};
     key <AB04> {[v, V]};
     key <AB01> {[z, Z]};
-    key <KP1>  {[semicolon]};
+    key <KP1>  {[semicolon, semicolon]};
 
     key <LALT> {[Alt_L]};
     key <LCTL> {[Control_L]};
-    key <SPCE> {[space]};
+    key <SPCE> {[space, space]};
     key  <TAB> {[Tab, ISO_Left_Tab]};
 
     key <LFSH> {[Shift_L]};
 
     // Left hand, Function layer
-    key <KPMU> {[asterisk]};
-    key <KP6>  {[asciicircum]};
+    key <KPMU> {[asterisk, asterisk]};
+    key <KP6>  {[asciicircum, asciicircum]};
 
-    key <KPAD> {[plus]};
-    key <LEFT> {[Left]};
-    key   <UP> {[Up]};
-    key <RGHT> {[Right]};
-    key <AE12> {[equal]};
+    key <KPAD> {[plus, plus]};
+    key <LEFT> {[Left, Left]};
+    key   <UP> {[Up, Up]};
+    key <RGHT> {[Right, Right]};
+    key <AE12> {[equal, equal]};
 
-    key <BKSL> {[backslash]};
-    key <DOWN> {[Down]};
-    key <AB10> {[slash]};
-    key <KP5>  {[percent]};
+    key <BKSL> {[backslash, backslash]};
+    key <DOWN> {[Down, Down]};
+    key <AB10> {[slash, slash]};
+    key <KP5>  {[percent, percent]};
 
     // Right hand, Function layer
-    key <HNGL> {[asciitilde]};
-    key <AE07> {[7]};
-    key <AE08> {[8]};
-    key <AE09> {[9]};
-    key <KP7>  {[ampersand]};
+    key <HNGL> {[asciitilde, asciitilde]};
+    key <AE07> {[7, 7]};
+    key <AE08> {[8, 8]};
+    key <AE09> {[9, 9]};
+    key <KP7>  {[ampersand, ampersand]};
 
-    key <KP4>  {[dollar]};
-    key <AE04> {[4]};
-    key <AE05> {[5]};
-    key <AE06> {[6]};
-    key <AE10> {[0]};
+    key <KP4>  {[dollar, dollar]};
+    key <AE04> {[4, 4]};
+    key <AE05> {[5, 5]};
+    key <AE06> {[6, 6]};
+    key <AE10> {[0, 0]};
 
-    key <KP2>  {[at]};
-    key <AE01> {[1]};
-    key <AE02> {[2]};
-    key <AE03> {[3]};
-    key <LSGT> {[bar]};
+    key <KP2>  {[at, at]};
+    key <AE01> {[1, 1]};
+    key <AE02> {[2, 2]};
+    key <AE03> {[3, 3]};
+    key <LSGT> {[bar, bar]};
 
     // Left hand, Extra layer
-    key <PRSC> {[Print]};
-    key <INS> {[Insert]};
+    key <PRSC> {[Print, Print]};
+    key <INS>  {[Insert, Insert]};
 
-    key <DELE> {[Delete]};
+    key <DELE> {[Delete, Delete]};
 
     key <AB11> {[aring, Aring]};
     key <HKTG> {[adiaeresis, Adiaeresis]};
-    key <PGUP> {[Prior]};
+    key <PGUP> {[Prior, Prior]};
     key <AE13> {[odiaeresis, Odiaeresis]};
-    key <HOME> {[Home]};
+    key <HOME> {[Home, Home]};
 
     key <HENK> {[ae, AE]};
-    key <PGDN> {[Next]};
+    key <PGDN> {[Next, Next]};
     key <MUHE> {[oslash, Ooblique]};
-    key  <END> {[End]};
+    key  <END> {[End, End]};
 
     // Right hand, Extra layer
-    key <VOL-> {[XF86AudioLowerVolume]};
-    key <MUTE> {[XF86AudioMute]};
-    key <VOL+> {[XF86AudioRaiseVolume]};
+    key <VOL-> {[XF86AudioLowerVolume, XF86AudioLowerVolume]};
+    key <MUTE> {[XF86AudioMute, XF86AudioMute]};
+    key <VOL+> {[XF86AudioRaiseVolume, XF86AudioRaiseVolume]};
 
     include "srvr_ctrl(fkey2vt)"
 };
