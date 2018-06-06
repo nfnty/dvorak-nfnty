@@ -1,11 +1,11 @@
 keymaps 0,1
 
+#                      Normal         Shift
+
 
 ###############
 #  LEFT HAND  #
 ###############
-
-#                      Normal         Shift
 
 keycode    41     =    grave          grave
 keycode    73     =    braceleft      braceleft
@@ -176,6 +176,7 @@ keycode    86     =    bar            bar
 #  EXTRA LAYER LEFT  #
 ######################
 
+keycode    111    =    Remove         Remove
 
 keycode    89     =    aring          Aring
 keycode    93     =    adiaeresis     Adiaeresis
@@ -240,7 +241,6 @@ keycode 99 = VoidSymbol
 keycode 100 = VoidSymbol
 keycode 101 = VoidSymbol
 keycode 110 = VoidSymbol
-keycode 111 = VoidSymbol
 keycode 112 = VoidSymbol
 keycode 113 = VoidSymbol
 keycode 114 = VoidSymbol

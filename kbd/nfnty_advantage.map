@@ -1,11 +1,11 @@
 keymaps 0,1
 
-
-###############
-#  LEFT HAND  #
-###############
-
 #                      Normal         Shift
+
+
+#############
+#  TOP ROW  #
+#############
 
 keycode    59     =    F1             F1
 control alt keycode  59 = Console_1
@@ -23,6 +23,19 @@ keycode    65     =    F7             F7
 control alt keycode  65 = Console_7
 keycode    66     =    F8             F8
 control alt keycode  66 = Console_8
+keycode    67     =    F9              F9
+control alt keycode  67 = Console_9
+keycode    68     =    F10             F10
+control alt keycode  68 = Console_10
+keycode    87     =    F11             F11
+control alt keycode  87 = Console_11
+keycode    88     =    F12             F12
+control alt keycode  88 = Console_12
+
+
+###############
+#  LEFT HAND  #
+###############
 
 keycode    13     =    ampersand      percent
 keycode    2      =    plus           nine
@@ -42,7 +55,7 @@ keycode    20     =    y              Y
 control keycode 20 = Control_y
 control shift keycode 20 = Control_y
 
-keycode    1      =    Escape         Escape
+keycode    1      =    Escape
 keycode    30     =    a              A
 control keycode 30 = Control_a
 control shift keycode 30 = Control_a
@@ -76,8 +89,8 @@ control shift keycode 48 = Control_x
 
 keycode    41     =    dollar         dollar
 keycode    86     =    asciitilde     asciitilde
-keycode    103    =    Up             Up
 keycode    108    =    Down           Down
+keycode    103    =    Up             Up
 
 keycode    126    =    VoidSymbol
 keycode    56     =    Alt
@@ -90,15 +103,6 @@ keycode    107    =    End            End
 ################
 #  RIGHT HAND  #
 ################
-
-keycode    67     =    F9              F9
-control alt keycode  67 = Console_9
-keycode    68     =    F10             F10
-control alt keycode  68 = Console_10
-keycode    87     =    F11             F11
-control alt keycode  87 = Console_11
-keycode    88     =    F12             F12
-control alt keycode  88 = Console_12
 
 keycode    7      =    asterisk        zero
 keycode    8      =    parenright      two
