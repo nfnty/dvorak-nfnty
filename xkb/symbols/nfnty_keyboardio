@@ -108,6 +108,7 @@ xkb_symbols "nfnty_keyboardio" {
 
     // Left hand, Extra layer
     key <PRSC> {[Print]};
+    key <INS> {[Insert]};
 
     key <DELE> {[Delete]};
 
@@ -123,8 +124,8 @@ xkb_symbols "nfnty_keyboardio" {
     key  <END> {[End]};
 
     // Right hand, Extra layer
-    key <MUTE> {[XF86AudioMute]};
     key <VOL-> {[XF86AudioLowerVolume]};
+    key <MUTE> {[XF86AudioMute]};
     key <VOL+> {[XF86AudioRaiseVolume]};
 
     include "srvr_ctrl(fkey2vt)"
