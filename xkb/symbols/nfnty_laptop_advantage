@@ -1,0 +1,93 @@
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "nfnty_laptop_advantage" {
+    name[Group1] = "nfnty_laptop_advantage";
+    key.type[Group1] = "EIGHT_LEVEL";
+
+    include "nfnty_base"
+
+    // Top row
+    // key <ESC> {[]};
+    include "srvr_ctrl(fkey2vt)"
+    // key <PRSC> {[]};
+    // key <INS> {[]};
+    // key <DEL> {[]};
+
+    // Left hand
+    key <TLDE> {[ampersand, percent]};
+    key <AE01> {[plus, 9]};
+    key <AE02> {[braceleft, 7]};
+    key <AE03> {[bracketleft, 5]};
+    key <AE04> {[parenleft, 3]};
+    key <AE05> {[equal, 1]};
+
+    key <TAB> {[minus, underscore]};
+    key <AD01> {[apostrophe, quotedbl]};
+    key <AD02> {[comma, less]};
+    key <AD03> {[period, greater]};
+    key <AD04> {[p, P, asterisk, asterisk]};
+    key <AD05> {[y, Y, asciicircum, asciicircum]};
+
+    key <CAPS> {[Escape]};
+    key <AC01> {[a, A, plus, plus, aring, Aring]};
+    key <AC02> {[o, O, Left, Left, adiaeresis, Adiaeresis]};
+    key <AC03> {[e, E, Up, Up, Prior, Prior]};
+    key <AC04> {[u, U, Right, Right, odiaeresis, Odiaeresis]};
+    key <AC05> {[i, I, equal, equal, Home, Home]};
+
+    key <LFSH> {[BackSpace]};
+    key <LSGT> {[backslash, bar]};
+    key <AB01> {[q, Q, backslash, backslash, ae, AE]};
+    key <AB02> {[j, J, Down, Down, Next, Next]};
+    key <AB03> {[k, K, slash, slash, oslash, Ooblique]};
+    key <AB04> {[x, X, percent, percent, End, End]};
+    key <AB05> {[ISO_Level5_Shift]};
+
+    // key <LCTL> {[]};
+    key <LWIN> {[Super_L]};
+    key <LALT> {[ISO_Level3_Shift]};
+    key <SPCE> {[space]};
+
+    // Right hand
+    // key <AE06> {[]};
+    key <AE07> {[asterisk, 0]};
+    key <AE08> {[parenright, 2, parenright, 2, XF86AudioLowerVolume, XF86AudioLowerVolume]};
+    key <AE09> {[bracketright, 4, bracketright, 4, XF86AudioMute, XF86AudioMute]};
+    key <AE10> {[braceright, 6, braceright, 6, XF86AudioRaiseVolume, XF86AudioRaiseVolume]};
+    key <AE11> {[exclam, 8]};
+    key <AE12> {[numbersign, grave]};
+    // key <BKSP> {[]};
+
+    key <AD06> {[f, F, asciitilde, asciitilde]};
+    key <AD07> {[g, G, 7, 7, F7, F7]};
+    key <AD08> {[c, C, 8, 8, F8, F8]};
+    key <AD09> {[r, R, 9, 9, F9, F9]};
+    key <AD10> {[l, L, ampersand, ampersand, F12, F12]};
+    key <AD11> {[slash, question]};
+    key <AD12> {[colon]};
+    // key <RTRN> {[]};
+
+    key <AC06> {[d, D, dollar, dollar]};
+    key <AC07> {[h, H, 4, 4, F4, F4]};
+    key <AC08> {[t, T, 5, 5, F5, F5]};
+    key <AC09> {[n, N, 6, 6, F6, F6]};
+    key <AC10> {[s, S, 0, 0, F10, F10]};
+    key <AC11> {[Tab, ISO_Left_Tab, Tab, ISO_Left_Tab, Tab, ISO_Left_Tab]};
+    key <BKSL> {[semicolon]};
+
+    key <AB06> {[b, B, at, at]};
+    key <AB07> {[m, M, 1, 1, F1, F1]};
+    key <AB08> {[w, W, 2, 2, F2, F2]};
+    key <AB09> {[v, V, 3, 3, F3, F3]};
+    key <AB10> {[z, Z, bar, bar, F11, F11]};
+    key <RTSH> {[Return]};
+
+    key <RALT> {[Shift_L]};
+    key <RCTL> {[Control_L]};
+    key <PGUP> {[Alt_L]};
+    // key <UP> {[]};
+    // key <PGDN> {[]};
+
+    key <LEFT> {[Alt_L]};
+    // key <DOWN> {[]};
+    // key <RGHT> {[]};
+};
