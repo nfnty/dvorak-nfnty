@@ -67,5 +67,5 @@ xkb_symbols "nfnty_advantage" {
     key <AD11> {[asciicircum, asciicircum]};
     key <AD12> {[at, at]};
 
-    include "level3(switch)"
+    key <RCTL> {[ISO_Level3_Shift]};
 };
