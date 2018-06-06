@@ -71,7 +71,7 @@ keycode    34     =    i              I             equal         equal         
 control keycode 34 = Control_i
 control shift keycode 34 = Control_i
 
-keycode    42     =    BackSpace      BackSpace     BackSpace     BackSpace      BackSpace     BackSpace
+keycode    42     =    Delete         Delete        Delete        Delete         Delete        Delete
 keycode    86     =    quotedbl       quotedbl      quotedbl      quotedbl
 keycode    44     =    q              Q             backslash     backslash      ae            AE
 control keycode 44 = Control_q
