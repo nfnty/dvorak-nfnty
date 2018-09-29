@@ -1,5 +1,5 @@
 ! model = keycodes
-  *     = evdev
+  *     = nfnty_evdev
 
 ! model = types
   *     = complete
