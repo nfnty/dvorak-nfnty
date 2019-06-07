@@ -125,7 +125,7 @@ shiftl shift keycode 47 = End
 shiftl altgr keycode 47 = End
 keycode    48     =    ShiftL
 
-keycode    29     =    VoidSymbol
+keycode    29     =    question       question      question      question
 keycode    125    =    VoidSymbol
 keycode    56     =    AltGr
 keycode    57     =    space          space         space         space
@@ -175,7 +175,7 @@ shiftl keycode 25 = F12
 shiftl shift keycode 25 = F12
 shiftl altgr keycode 25 = F12
 keycode    26     =    underscore     underscore    underscore    underscore
-keycode    27     =    question       question      question      question
+keycode    27     =    VoidSymbol
 keycode    28     =    VoidSymbol
 
 keycode    35     =    d              D             dollar        dollar

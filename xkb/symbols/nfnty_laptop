@@ -42,7 +42,7 @@ xkb_symbols "nfnty_laptop" {
     key <AB04> {[x, X, percent, percent, End, End, End]};
     key <AB05> {[ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift]};
 
-    // key <LCTL> {[]};
+    key <LCTL> {[question, question, question, question]};
     key <LWIN> {[Super_L, Super_L, Super_L, Super_L, Super_L, Super_L, Super_L]};
     key <LALT> {[ISO_Level3_Shift, ISO_Level3_Shift, ISO_Level3_Shift, ISO_Level3_Shift, ISO_Level3_Shift, ISO_Level3_Shift, ISO_Level3_Shift]};
     key <SPCE> {[space, space, space, space, space, space, space]};
@@ -63,7 +63,7 @@ xkb_symbols "nfnty_laptop" {
     key <AD09> {[r, R, 9, 9, F9, F9, F9]};
     key <AD10> {[l, L, ampersand, ampersand, F12, F12, F12]};
     key <AD11> {[underscore, underscore, underscore, underscore]};
-    key <AD12> {[question, question, question, question]};
+    // key <AD12> {[]};
     // key <RTRN> {[]};
 
     key <AC06> {[d, D, dollar, dollar]};
