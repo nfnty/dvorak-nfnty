@@ -113,15 +113,13 @@ xkb_symbols "nfnty_keyboardio" {
     key <DELE> {[Delete, Delete]};
 
     key <AB11> {[aring, Aring]};
-    key <HKTG> {[adiaeresis, Adiaeresis]};
-    key <PGUP> {[Prior, Prior]};
-    key <AE13> {[odiaeresis, Odiaeresis]};
     key <HOME> {[Home, Home]};
-
-    key <HENK> {[ae, AE]};
-    key <PGDN> {[Next, Next]};
-    key <MUHE> {[oslash, Ooblique]};
+    key <PGUP> {[Prior, Prior]};
     key  <END> {[End, End]};
+
+    key <HKTG> {[adiaeresis, Adiaeresis]};
+    key <PGDN> {[Next, Next]};
+    key <AE13> {[odiaeresis, Odiaeresis]};
 
     // Right hand, Extra layer
     key <VOL-> {[XF86AudioLowerVolume, XF86AudioLowerVolume]};

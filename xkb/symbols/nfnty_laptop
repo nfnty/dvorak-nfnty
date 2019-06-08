@@ -18,28 +18,29 @@ xkb_symbols "nfnty_laptop" {
     key <AE02> {[braceleft, braceleft, braceleft, braceleft]};
     key <AE03> {[bracketleft, bracketleft, bracketleft, bracketleft]};
     key <AE04> {[parenleft, parenleft, parenleft, parenleft]};
-    key <AE05> {[less, less, less, less]};
+    key <AE05> {[less, less, less, less, XF86Cut, XF86Cut, XF86Cut]};
+    // key <AE06> {[]};
 
     key <TAB> {[minus, minus, minus, minus]};
     key <AD01> {[apostrophe, apostrophe, apostrophe, apostrophe, Delete, Delete, Delete]};
     key <AD02> {[comma, comma, comma, comma]};
     key <AD03> {[period, period, period, period]};
-    key <AD04> {[p, P, asterisk, asterisk]};
-    key <AD05> {[y, Y, asciicircum, asciicircum]};
+    key <AD04> {[p, P, asterisk, asterisk, XF86Paste, XF86Paste, XF86Paste]};
+    key <AD05> {[y, Y, asciicircum, asciicircum, XF86Copy, XF86Copy, XF86Copy]};
 
     key <CAPS> {[Escape, Escape, Escape, Escape, Escape, Escape, Escape]};
     key <AC01> {[a, A, plus, plus, aring, Aring, Aring]};
-    key <AC02> {[o, O, Left, Left, adiaeresis, Adiaeresis, Adiaeresis]};
+    key <AC02> {[o, O, Left, Left, Home, Home, Home]};
     key <AC03> {[e, E, Up, Up, Prior, Prior, Prior]};
-    key <AC04> {[u, U, Right, Right, odiaeresis, Odiaeresis, Odiaeresis]};
-    key <AC05> {[i, I, equal, equal, Home, Home, Home]};
+    key <AC04> {[u, U, Right, Right, End, End, End]};
+    key <AC05> {[i, I, equal, equal]};
 
     key <LFSH> {[BackSpace, BackSpace, BackSpace, BackSpace, BackSpace, BackSpace, BackSpace]};
     key <LSGT> {[quotedbl, quotedbl, quotedbl, quotedbl]};
-    key <AB01> {[q, Q, backslash, backslash, ae, AE, AE]};
+    key <AB01> {[q, Q, backslash, backslash, adiaeresis, Adiaeresis, Adiaeresis]};
     key <AB02> {[j, J, Down, Down, Next, Next, Next]};
-    key <AB03> {[k, K, slash, slash, oslash, Ooblique, Ooblique]};
-    key <AB04> {[x, X, percent, percent, End, End, End]};
+    key <AB03> {[k, K, slash, slash, odiaeresis, Odiaeresis, Odiaeresis]};
+    key <AB04> {[x, X, percent, percent]};
     key <AB05> {[ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift]};
 
     key <LCTL> {[question, question, question, question]};
@@ -48,7 +49,6 @@ xkb_symbols "nfnty_laptop" {
     key <SPCE> {[space, space, space, space, space, space, space]};
 
     // Right hand
-    // key <AE06> {[]};
     key <AE07> {[greater, greater, greater, greater]};
     key <AE08> {[parenright, parenright, parenright, parenright, XF86AudioLowerVolume, XF86AudioLowerVolume, XF86AudioLowerVolume]};
     key <AE09> {[bracketright, bracketright, bracketright, bracketright, XF86AudioMute, XF86AudioMute, XF86AudioMute]};

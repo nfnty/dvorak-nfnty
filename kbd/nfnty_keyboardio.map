@@ -179,15 +179,13 @@ keycode    86     =    bar            bar
 keycode    111    =    Remove         Remove
 
 keycode    89     =    aring          Aring
-keycode    93     =    adiaeresis     Adiaeresis
-keycode    104    =    PageUp         PageUp
-keycode    124    =    odiaeresis     Odiaeresis
 keycode    102    =    Home           Home
-
-keycode    92     =    ae             AE
-keycode    109    =    PageDown       PageDown
-keycode    94     =    oslash         Ooblique
+keycode    104    =    PageUp         PageUp
 keycode    107    =    End            End
+
+keycode    93     =    adiaeresis     Adiaeresis
+keycode    109    =    PageDown       PageDown
+keycode    124    =    odiaeresis     Odiaeresis
 
 #######################
 #  EXTRA LAYER RIGHT  #
