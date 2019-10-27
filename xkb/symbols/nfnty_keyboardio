@@ -122,9 +122,13 @@ xkb_symbols "nfnty_keyboardio" {
     key <AE13> {[odiaeresis, Odiaeresis]};
 
     // Right hand, Extra layer
+    key <I174> {[XF86AudioStop, XF86AudioStop]};
     key <VOL-> {[XF86AudioLowerVolume, XF86AudioLowerVolume]};
     key <MUTE> {[XF86AudioMute, XF86AudioMute]};
     key <VOL+> {[XF86AudioRaiseVolume, XF86AudioRaiseVolume]};
 
+    key <I171> {[XF86AudioNext, XF86AudioNext]};
+    key <I172> {[XF86AudioPlay, XF86AudioPlay]};
+    key <I173> {[XF86AudioPrev, XF86AudioPrev]};
     include "srvr_ctrl(fkey2vt)"
 };
