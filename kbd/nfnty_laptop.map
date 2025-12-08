@@ -239,12 +239,9 @@ shiftl altgr keycode 54 = Return
 
 keycode    100    =    Shift
 keycode    97     =    Control
-keycode    104    =    Alt
+keycode    105    =    Control
+keycode    108    =    Alt
 keycode    103    =    VoidSymbol
-keycode    109    =    VoidSymbol
-
-keycode    105    =    Alt
-keycode    108    =    VoidSymbol
 keycode    106    =    VoidSymbol
 
 

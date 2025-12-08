@@ -2,7 +2,13 @@ default partial alphanumeric_keys modifier_keys
 xkb_symbols "nfnty_keyboardio" {
     name[Group1] = "nfnty_keyboardio";
 
-    include "nfnty_base"
+    // Modifiers
+    modifier_map Shift {Shift_L, Shift_R};
+    modifier_map Control {Control_L, Control_R};
+    modifier_map Mod1 {Alt_L, Alt_R};
+    modifier_map Mod3 {ISO_Level5_Shift};
+    modifier_map Mod4 {Super_L, Super_R};
+    modifier_map Mod5 {ISO_Level3_Shift};
 
     // Left hand, Normal layer
     key <TLDE> {[grave, grave]};

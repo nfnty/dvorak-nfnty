@@ -3,11 +3,16 @@ xkb_symbols "nfnty_laptop" {
     name[Group1] = "nfnty_laptop";
     key.type[Group1] = "EIGHT_LEVEL";
 
-    include "nfnty_base"
+    // Modifiers
+    modifier_map Shift {Shift_L, Shift_R};
+    modifier_map Control {Control_L, Control_R};
+    modifier_map Mod1 {Alt_L, Alt_R};
+    modifier_map Mod3 {ISO_Level5_Shift};
+    modifier_map Mod4 {Super_L, Super_R};
+    modifier_map Mod5 {ISO_Level3_Shift};
 
     // Top row
     // key <ESC> {[]};
-    include "srvr_ctrl(fkey2vt)"
     // key <PRSC> {[]};
     // key <INS> {[]};
     // key <DEL> {[]};
@@ -83,11 +88,10 @@ xkb_symbols "nfnty_laptop" {
 
     key <RALT> {[Shift_L, Shift_L, Shift_L, Shift_L, Shift_L, Shift_L, Shift_L]};
     key <RCTL> {[Control_L, Control_L, Control_L, Control_L, Control_L, Control_L, Control_L]};
-    key <PGUP> {[Alt_L, Alt_L, Alt_L, Alt_L, Alt_L, Alt_L, Alt_L]};
+    key <LEFT> {[Control_R, Control_R, Control_R, Control_R, Control_R, Control_R, Control_R]};
     // key <UP> {[]};
-    // key <PGDN> {[]};
-
-    key <LEFT> {[Alt_L, Alt_L, Alt_L, Alt_L, Alt_L, Alt_L, Alt_L]};
-    // key <DOWN> {[]};
+    key <DOWN> {[Alt_L, Alt_L, Alt_L, Alt_L, Alt_L, Alt_L, Alt_L]};
     // key <RGHT> {[]};
+
+    include "srvr_ctrl(fkey2vt)"
 };
