@@ -199,11 +199,11 @@ control shift keycode 39 = Control_s
 shiftl keycode 39 = F10
 shiftl shift keycode 39 = F10
 shiftl altgr keycode 39 = F10
-keycode    40     =    Tab            Meta_Tab      Tab           Meta_Tab
-shiftl keycode 40 = Tab
-shiftl shift keycode 40 = Meta_Tab
-shiftl altgr keycode 40 = Meta_Tab
-keycode    43     =    exclam         exclam        exclam        exclam
+keycode    40     =    Return         Return        Return        Return
+shiftl keycode 40 = Return
+shiftl shift keycode 40 = Return
+shiftl altgr keycode 40 = Return
+keycode 43 = VoidSymbol
 
 keycode    49     =    b              B             at            at
 control keycode 49 = Control_b
@@ -232,16 +232,16 @@ control shift keycode 53 = Control_z
 shiftl keycode 53 = F11
 shiftl shift keycode 53 = F11
 shiftl altgr keycode 53 = F11
-keycode    54     =    Return         Return        Return        Return
-shiftl keycode 54 = Return
-shiftl shift keycode 54 = Return
-shiftl altgr keycode 54 = Return
+keycode    54     =    Tab            Meta_Tab      Tab           Meta_Tab
+shiftl keycode 54 = Tab
+shiftl shift keycode 54 = Meta_Tab
+shiftl altgr keycode 54 = Meta_Tab
 
 keycode    100    =    Shift
 keycode    97     =    Control
 keycode    105    =    Control
 keycode    108    =    Alt
-keycode    103    =    VoidSymbol
+keycode    103    =    exclam         exclam        exclam        exclam
 keycode    106    =    VoidSymbol
 
 
